@@ -16,7 +16,7 @@ public class Item {
     private Boolean open;  // 판매여부
     private List<String> regions; // 등록 지점
     private ItemType itemType; // 상품 종류
-    private DeliveryCode deliveryCode; // 배송 방식 정보
+    private String deliveryCode; // 배송 방식 정보
 
 
     public Item() {
